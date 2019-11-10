@@ -1588,7 +1588,7 @@ esac
 else
   echo -e "Skipping -/home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}- Found!"
 fi
-Function_Glances(){
+Function_Glances()
   if grep -Fxq "glancesInstalled: true" /usr/local/nullentrydev/mnodes.log
     then
       clear
