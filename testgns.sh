@@ -1514,6 +1514,26 @@ esac
       echo "externalip=[${MNIP11}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 12 ]] ; then
       echo "externalip=[${MNIP12}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 13 ]] ; then
+      echo "externalip=[${MNIP13}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 14 ]] ; then
+      echo "externalip=[${MNIP14}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 15 ]] ; then
+      echo "externalip=[${MNIP15}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 16 ]] ; then
+      echo "externalip=[${MNIP16}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 17 ]] ; then
+      echo "externalip=[${MNIP17}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 18 ]] ; then
+      echo "externalip=[${MNIP18}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 19 ]] ; then
+      echo "externalip=[${MNIP19}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 20 ]] ; then
+      echo "externalip=[${MNIP20}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 21 ]] ; then
+      echo "externalip=[${MNIP21}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 22 ]] ; then
+      echo "externalip=[${MNIP22}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
   if [[ $nodeunit -eq 1 ]] ; then
   echo "masternodeprivkey=$PRIVK1" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
