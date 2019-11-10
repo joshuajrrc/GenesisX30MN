@@ -1558,7 +1558,6 @@ esac
   elif [[ $nodeunit -eq 21 ]] ; then
   echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 22 ]] ; then
-  fi
     if [[ $nodeunit -eq 1 ]] ; then
   echo "addnode=$ADDNODE0" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   echo "addnode=$ADDNODE1" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
