@@ -311,28 +311,28 @@ esac
   if [ -d /home/${COINl}14 ]; then
   echo -e "14 -  Masternode Fourteen"
   fi
-      if [ -d /home/${COINl}15 ]; then
+  if [ -d /home/${COINl}15 ]; then
   echo -e "15 -  Masternode Fifteen"
   fi
-      if [ -d /home/${COINl}16 ]; then
+  if [ -d /home/${COINl}16 ]; then
   echo -e "16 -  Masternode Sixteen"
   fi
-      if [ -d /home/${COINl}17 ]; then
+  if [ -d /home/${COINl}17 ]; then
   echo -e "17 -  Masternode Seventeen"
   fi
-      if [ -d /home/${COINl}18 ]; then
+  if [ -d /home/${COINl}18 ]; then
   echo -e "18 -  Masternode Eighteen"
   fi
-      if [ -d /home/${COINl}19 ]; then
+  if [ -d /home/${COINl}19 ]; then
   echo -e "19 -  Masternode Nineteen"
   fi
-      if [ -d /home/${COINl}20 ]; then
+  if [ -d /home/${COINl}20 ]; then
   echo -e "20 -  Masternode Twenty"
   fi
-      if [ -d /home/${COINl}21 ]; then
+  if [ -d /home/${COINl}21 ]; then
   echo -e "21 -  Masternode Twentyone"
   fi
-      if [ -d /home/${COINl}22 ]; then
+  if [ -d /home/${COINl}22 ]; then
   echo -e "22 -  Masternode Twentytwo"
   fi
   if [ -d /home/${COINl}0 ]; then
@@ -1825,6 +1825,30 @@ Function_Build_IP_Table(){
   read MNIP9
   echo -e ${GREEN}"IP for Masternode 10"${CLEAR}
   read MNIP10
+  echo -e ${GREEN}"IP for Masternode 11"${CLEAR}
+  read MNIP11
+  echo -e ${GREEN}"IP for Masternode 12"${CLEAR}
+  read MNIP12
+  echo -e ${GREEN}"IP for Masternode 13"${CLEAR}
+  read MNIP13
+  echo -e ${GREEN}"IP for Masternode 14"${CLEAR}
+  read MNIP14
+  echo -e ${GREEN}"IP for Masternode 15"${CLEAR}
+  read MNIP15
+  echo -e ${GREEN}"IP for Masternode 16"${CLEAR}
+  read MNIP16
+  echo -e ${GREEN}"IP for Masternode 17"${CLEAR}
+  read MNIP17
+  echo -e ${GREEN}"IP for Masternode 18"${CLEAR}
+  read MNIP18
+  echo -e ${GREEN}"IP for Masternode 19"${CLEAR}
+  read MNIP19
+  echo -e ${GREEN}"IP for Masternode 20"${CLEAR}
+  read MNIP20
+  echo -e ${GREEN}"IP for Masternode 21"${CLEAR}
+  read MNIP21
+  echo -e ${GREEN}"IP for Masternode 22"${CLEAR}
+  read MNIP22
   else
   regex='^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$'
   FINDIP=$(hostname -I | cut -f2 -d' '| cut -f1-7 -d:)
@@ -1911,7 +1935,7 @@ Function_Build_Masternode_Key_Table(){
     echo \Masternode needs to be rebuilt in order for these to take effect >> ${DPATH}${COIN3l}mnkey.tbl
     echo \#unless keys are entered in configuration directly.  >> ${DPATH}${COIN3l}mnkey.tbl
     count=0
-    until [[ $count = 22 ]]; do
+    until [[ $count = 23 ]]; do
     ${COINDAEMONCLI} -datadir=/home/${COINl}1/.${COINl} masternode genkey >> ${DPATH}${COIN3l}mnkey.tbl
     count=$[$count+1]
     done
