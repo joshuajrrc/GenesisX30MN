@@ -1911,7 +1911,7 @@ Function_Build_Masternode_Key_Table(){
     echo \Masternode needs to be rebuilt in order for these to take effect >> ${DPATH}${COIN3l}mnkey.tbl
     echo \#unless keys are entered in configuration directly.  >> ${DPATH}${COIN3l}mnkey.tbl
     count=0
-    until [[ $count = 13 ]]; do
+    until [[ $count = 22 ]]; do
     ${COINDAEMONCLI} -datadir=/home/${COINl}1/.${COINl} masternode genkey >> ${DPATH}${COIN3l}mnkey.tbl
     count=$[$count+1]
     done
@@ -2026,6 +2026,33 @@ Function_Read_Masternode_Key_Table(){
     fi
     if [ -f /home/${COINl}13/.${COINl}/${COINCONFIG} ]; then
       echo -e "${COIN3l}13 [${MNIP13}]:$COINPORT $PRIVK13 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}14/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}14 [${MNIP14}]:$COINPORT $PRIVK14 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}15/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}15 [${MNIP15}]:$COINPORT $PRIVK15 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}16/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}16 [${MNIP16}]:$COINPORT $PRIVK16 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}17/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}17 [${MNIP17}]:$COINPORT $PRIVK17 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}18/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}18 [${MNIP18}]:$COINPORT $PRIVK18 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}19/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}19 [${MNIP19}]:$COINPORT $PRIVK19 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}20/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}20 [${MNIP20}]:$COINPORT $PRIVK20 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}21/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}21 [${MNIP21}]:$COINPORT $PRIVK21 [Transaction ID] [Transaction Output]"
+    fi
+    if [ -f /home/${COINl}22/.${COINl}/${COINCONFIG} ]; then
+      echo -e "${COIN3l}22 [${MNIP22}]:$COINPORT $PRIVK22 [Transaction ID] [Transaction Output]"
     fi
     echo -e "${CLEAR}"
     pause
