@@ -305,8 +305,35 @@ esac
   if [ -d /home/${COINl}12 ]; then
   echo -e "12 -  Masternode Twelve"
   fi
-    if [ -d /home/${COINl}13 ]; then
+  if [ -d /home/${COINl}13 ]; then
   echo -e "13 -  Masternode Thirteen"
+  fi
+  if [ -d /home/${COINl}14 ]; then
+  echo -e "14 -  Masternode Fourteen"
+  fi
+      if [ -d /home/${COINl}15 ]; then
+  echo -e "15 -  Masternode Fifteen"
+  fi
+      if [ -d /home/${COINl}16 ]; then
+  echo -e "16 -  Masternode Sixteen"
+  fi
+      if [ -d /home/${COINl}17 ]; then
+  echo -e "17 -  Masternode Seventeen"
+  fi
+      if [ -d /home/${COINl}18 ]; then
+  echo -e "18 -  Masternode Eighteen"
+  fi
+      if [ -d /home/${COINl}19 ]; then
+  echo -e "19 -  Masternode Nineteen"
+  fi
+      if [ -d /home/${COINl}20 ]; then
+  echo -e "20 -  Masternode Twenty"
+  fi
+      if [ -d /home/${COINl}21 ]; then
+  echo -e "21 -  Masternode Twentyone"
+  fi
+      if [ -d /home/${COINl}22 ]; then
+  echo -e "22 -  Masternode Twentytwo"
   fi
   if [ -d /home/${COINl}0 ]; then
   echo -e "0 -  Masternode Zero"
@@ -351,7 +378,25 @@ esac
     Function_Start_Masternode ;;
     12) nodeunit=12
     Function_Start_Masternode ;;
-    13) nodeunit=13       
+    13) nodeunit=13
+    Function_Start_Masternode ;;
+    14) nodeunit=14
+    Function_Start_Masternode ;;
+    15) nodeunit=15
+    Function_Start_Masternode ;;
+    16) nodeunit=16
+    Function_Start_Masternode ;;
+    17) nodeunit=17
+    Function_Start_Masternode ;;
+    18) nodeunit=18
+    Function_Start_Masternode ;;
+    19) nodeunit=19
+    Function_Start_Masternode ;;
+    20) nodeunit=20
+    Function_Start_Masternode ;;
+    21) nodeunit=21
+    Function_Start_Masternode ;;
+    22) nodeunit=22
     Function_Start_Masternode ;;
     a) echo -e "Launching all Mastersnodes!"
     Function_Start_All_Nodes ;;
@@ -413,6 +458,33 @@ esac
   if [ -d /home/${COINl}13 ]; then
   echo -e "13 - Masternode Thirteen"
   fi
+  if [ -d /home/${COINl}14 ]; then
+  echo -e "14 - Masternode Fourteen"
+  fi
+  if [ -d /home/${COINl}15 ]; then
+  echo -e "15 - Masternode Fifteen"
+  fi
+  if [ -d /home/${COINl}16 ]; then
+  echo -e "16 - Masternode Sixteen"
+  fi
+  if [ -d /home/${COINl}17 ]; then
+  echo -e "17 - Masternode Seventeen"
+  fi
+  if [ -d /home/${COINl}18 ]; then
+  echo -e "18 - Masternode Eightteen"
+  fi
+  if [ -d /home/${COINl}19 ]; then
+  echo -e "19 - Masternode Nineteen"
+  fi
+  if [ -d /home/${COINl}20 ]; then
+  echo -e "20 - Masternode Twenty"
+  fi
+  if [ -d /home/${COINl}21 ]; then
+  echo -e "21 - Masternode Twentyone"
+  fi
+  if [ -d /home/${COINl}22 ]; then
+  echo -e "22 - Masternode Twentytwo"
+  fi
   if [ -d /home/${COINl}0 ]; then
   echo -e "0 - Masternode Zero"
   fi
@@ -456,7 +528,23 @@ esac
     function_reindex_masternode ;;
     13) nodeunit=13
     function_reindex_masternode ;;
-    0) nodeunit=0
+    14) nodeunit=14
+    function_reindex_masternode ;;
+    15) nodeunit=15
+    function_reindex_masternode ;;
+    16) nodeunit=16
+    function_reindex_masternode ;;
+    17) nodeunit=17
+    function_reindex_masternode ;;
+    18) nodeunit=18
+    function_reindex_masternode ;;
+    19) nodeunit=19
+    function_reindex_masternode ;;
+    20) nodeunit=20
+    function_reindex_masternode ;;
+    21) nodeunit=21
+    function_reindex_masternode ;;
+    22) nodeunit=22
     function_reindex_masternode ;;
     a) echo -e "Launching all Masters!"
     Function_Start_All_Nodes ;;
@@ -489,7 +577,7 @@ esac
   nodeunit=
   Function_Start_Masternode
   nodeunit=0
-  until [[ $nodeunit = 14 ]]; do
+  until [[ $nodeunit = 23 ]]; do
   Function_Start_Masternode
   nodeunit=$[$nodeunit+1]
   done
@@ -542,6 +630,33 @@ esac
   fi
   if [ -d /home/${COINl}13 ]; then
   echo -e "13 - Masternode Thirteen"
+  fi
+  if [ -d /home/${COINl}14 ]; then
+  echo -e "14 - Masternode Fourteen"
+  fi
+  if [ -d /home/${COINl}15 ]; then
+  echo -e "15 - Masternode Fifteen"
+  fi
+  if [ -d /home/${COINl}16 ]; then
+  echo -e "16 - Masternode Sixteen"
+  fi
+  if [ -d /home/${COINl}17 ]; then
+  echo -e "17 - Masternode Seventeen"
+  fi
+  if [ -d /home/${COINl}18 ]; then
+  echo -e "18 - Masternode Eighteen"
+  fi
+  if [ -d /home/${COINl}19 ]; then
+  echo -e "19 - Masternode Nineteen"
+  fi
+  if [ -d /home/${COINl}20 ]; then
+  echo -e "20 - Masternode Twenty"
+  fi
+  if [ -d /home/${COINl}21 ]; then
+  echo -e "21 - Masternode Twentyone"
+  fi
+  if [ -d /home/${COINl}22 ]; then
+  echo -e "22 - Masternode Twentytwo"
   fi
   if [ -d /home/${COINl}0 ]; then
   echo -e "0 - Masternode Zero"
@@ -598,6 +713,33 @@ esac
   if [ -d /home/${COINl}13 ]; then
   echo -e "13 - Masternode Thirteen"
   fi
+  if [ -d /home/${COINl}14 ]; then
+  echo -e "14 - Masternode Fourteen"
+  fi
+  if [ -d /home/${COINl}15 ]; then
+  echo -e "15 - Masternode Fifteen"
+  fi
+  if [ -d /home/${COINl}16 ]; then
+  echo -e "16 - Masternode Sixteen"
+  fi
+  if [ -d /home/${COINl}17 ]; then
+  echo -e "17 - Masternode Seventeen"
+  fi
+  if [ -d /home/${COINl}18 ]; then
+  echo -e "18 - Masternode Eighteen"
+  fi
+  if [ -d /home/${COINl}19 ]; then
+  echo -e "19 - Masternode Nineteen"
+  fi
+  if [ -d /home/${COINl}20 ]; then
+  echo -e "20 - Masternode Twenty"
+  fi
+  if [ -d /home/${COINl}21 ]; then
+  echo -e "21 - Masternode Twentyone"
+  fi
+  if [ -d /home/${COINl}22 ]; then
+  echo -e "22 - Masternode Twentytwo"
+  fi  
   if [ -d /home/${COINl}0 ]; then
   echo -e "0 - Masternode Zero"
   fi
@@ -639,6 +781,24 @@ case $choice in
   12) nodeunit=12
   Function_ViewCat_masternode ;;
   13) nodeunit=13
+  Function_ViewCat_masternode ;;
+  14) nodeunit=14
+  Function_ViewCat_masternode ;;
+  15) nodeunit=15
+  Function_ViewCat_masternode ;;
+  16) nodeunit=16
+  Function_ViewCat_masternode ;;
+  17) nodeunit=17
+  Function_ViewCat_masternode ;;
+  18) nodeunit=18
+  Function_ViewCat_masternode ;;
+  19) nodeunit=19
+  Function_ViewCat_masternode ;;
+  20) nodeunit=20
+  Function_ViewCat_masternode ;;
+  21) nodeunit=21
+  Function_ViewCat_masternode ;;
+  22) nodeunit=22
   Function_ViewCat_masternode ;;
   0) nodeunit=0
   Function_ViewCat_masternode ;;
@@ -698,6 +858,33 @@ esac
   if [ -d /home/${COINl}13 ]; then
   echo -e "13 - Masternode Thirteen"
   fi
+  if [ -d /home/${COINl}14 ]; then
+  echo -e "14 - Masternode Fourteen"
+  fi
+  if [ -d /home/${COINl}15 ]; then
+  echo -e "15 - Masternode Fifteen"
+  fi
+  if [ -d /home/${COINl}16 ]; then
+  echo -e "16 - Masternode Sixteen"
+  fi
+  if [ -d /home/${COINl}17 ]; then
+  echo -e "17 - Masternode Seventeen"
+  fi
+  if [ -d /home/${COINl}18 ]; then
+  echo -e "18 - Masternode Eighteen"
+  fi
+  if [ -d /home/${COINl}19 ]; then
+  echo -e "19 - Masternode Nineteen"
+  fi
+  if [ -d /home/${COINl}20 ]; then
+  echo -e "20 - Masternode Twenty"
+  fi
+  if [ -d /home/${COINl}21 ]; then
+  echo -e "21 - Masternode Twentyone"
+  fi
+  if [ -d /home/${COINl}22 ]; then
+  echo -e "22 - Masternode Twentytwo"
+  fi
   if [ -d /home/${COINl}0 ]; then
   echo -e "0 - Masternode Zero"
   fi
@@ -742,6 +929,24 @@ esac
     Function_Stop_Masternode ;;
     13) nodeunit=13
     Function_Stop_Masternode ;;
+    14) nodeunit=14
+    Function_Stop_Masternode ;;
+    15) nodeunit=15
+    Function_Stop_Masternode ;;
+    16) nodeunit=16
+    Function_Stop_Masternode ;;
+    17) nodeunit=17
+    Function_Stop_Masternode ;;
+    18) nodeunit=18
+    Function_Stop_Masternode ;;
+    19) nodeunit=19
+    Function_Stop_Masternode ;;
+    20) nodeunit=20
+    Function_Stop_Masternode ;;
+    21) nodeunit=21
+    Function_Stop_Masternode ;;
+    22) nodeunit=22
+    Function_Stop_Masternode ;; 
     0) nodeunit=0
     Function_Stop_Masternode ;;
     a) echo -e "Stopping all Mastersnodes!"
@@ -763,7 +968,7 @@ esac
   nodeunit=
   Function_Stop_Masternode
   nodeunit=0
-  until [[ $nodeunit = 13 ]]; do
+  until [[ $nodeunit = 23 ]]; do
   Function_Stop_Masternode
   nodeunit=$[$nodeunit+1]
   done
@@ -815,6 +1020,24 @@ esac
     edit_menu_choice ;;
     13) nodeunit=13
     edit_menu_choice ;;
+    14) nodeunit=14
+    edit_menu_choice ;;
+    15) nodeunit=15
+    edit_menu_choice ;;
+    16) nodeunit=16
+    edit_menu_choice ;;
+    17) nodeunit=17
+    edit_menu_choice ;;
+    18) nodeunit=18
+    edit_menu_choice ;;
+    19) nodeunit=19
+    edit_menu_choice ;;
+    20) nodeunit=20
+    edit_menu_choice ;;
+    21) nodeunit=21
+    edit_menu_choice ;;
+    22) nodeunit=22
+    edit_menu_choice ;; 
     0) nodeunit=0
     edit_menu_choice ;;
     b) echo -e "backing out" ;;
@@ -872,6 +1095,33 @@ esac
   if [ -d /home/${COINl}13 ]; then
   echo -e "13 - Masternode Thirteen"
   fi
+  if [ -d /home/${COINl}14 ]; then
+  echo -e "14 - Masternode Fourteen"
+  fi
+  if [ -d /home/${COINl}15 ]; then
+  echo -e "15 - Masternode Fifteen"
+  fi
+  if [ -d /home/${COINl}16 ]; then
+  echo -e "16 - Masternode Sixteen"
+  fi
+  if [ -d /home/${COINl}17 ]; then
+  echo -e "17 - Masternode Seventeen"
+  fi
+  if [ -d /home/${COINl}18 ]; then
+  echo -e "18 - Masternode Eighteen"
+  fi
+  if [ -d /home/${COINl}19 ]; then
+  echo -e "19 - Masternode Nineteen"
+  fi
+  if [ -d /home/${COINl}20 ]; then
+  echo -e "20 - Masternode Twenty"
+  fi
+  if [ -d /home/${COINl}21 ]; then
+  echo -e "21 - Masternode Twentyone"
+  fi
+  if [ -d /home/${COINl}22 ]; then
+  echo -e "22 - Masternode Twentytwo"
+  fi
   if [ -d /home/${COINl}0 ]; then
   echo -e "10 - Masternode Zero"
   fi
@@ -921,6 +1171,24 @@ esac
     display_MN_choice ;;
     13) nodeunit=13
     display_MN_choice ;;
+    14) nodeunit=14
+    display_MN_choice ;;
+    15) nodeunit=15
+    display_MN_choice ;;
+    16) nodeunit=16
+    display_MN_choice ;;
+    17) nodeunit=17
+    display_MN_choice ;;
+    18) nodeunit=18
+    display_MN_choice ;;
+    19) nodeunit=19
+    display_MN_choice ;;
+    20) nodeunit=20
+    display_MN_choice ;;
+    21) nodeunit=21
+    display_MN_choice ;;
+    22) nodeunit=22
+    display_MN_choice ;;   
     0) nodeunit=0
     display_MN_choice ;;
     b) echo -e "backing out" ;;
@@ -978,6 +1246,24 @@ esac
     Find_All_Masternodes ;;
     13) nodeunit=13
     Find_All_Masternodes ;;
+    14) nodeunit=14
+    Find_All_Masternodes ;;
+    15) nodeunit=15
+    Find_All_Masternodes ;;
+    16) nodeunit=16
+    Find_All_Masternodes ;;
+    17) nodeunit=17
+    Find_All_Masternodes ;;
+    18) nodeunit=18
+    Find_All_Masternodes ;;
+    19) nodeunit=19
+    Find_All_Masternodes ;;
+    20) nodeunit=20
+    Find_All_Masternodes ;;
+    21) nodeunit=21
+    Find_All_Masternodes ;;
+    22) nodeunit=22
+    Find_All_Masternodes ;;  
     0) nodeunit=0
     Find_All_Masternodes ;;
     b) echo -e "backing out" ;;
@@ -994,7 +1280,7 @@ esac
   nodeunit=
   Function_Find_Masternodes
   nodeunit=0
-  until [[ $nodeunit = 14 ]]; do
+  until [[ $nodeunit = 24 ]]; do
   Function_Find_Masternodes
   nodeunit=$[$nodeunit+1]
   done
@@ -1255,6 +1541,23 @@ esac
   echo "masternodeprivkey=$PRIVK12" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 13 ]] ; then
   echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 14 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 15 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 16 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 17 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 18 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 19 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 20 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 21 ]] ; then
+  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  elif [[ $nodeunit -eq 22 ]] ; then
   fi
     if [[ $nodeunit -eq 1 ]] ; then
   echo "addnode=$ADDNODE0" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
@@ -1271,6 +1574,15 @@ esac
   echo "addnode=$ADDNODE11" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   echo "addnode=$ADDNODE12" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   echo "addnode=$ADDNODE13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE14" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE15" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE16" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE17" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE18" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE19" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE20" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE21" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "addnode=$ADDNODE22" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   else
   echo "addnode=${MNIP1}" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
@@ -1364,6 +1676,15 @@ Function_Glances(){
     echo -e "11 - Masternode Eleven"
     echo -e "12 - Masternode Twelve"
     echo -e "13 - Masternode Thirteen"
+    echo -e "14  - Masternode Fourteen"
+    echo -e "15  - Masternode Fifteen"
+    echo -e "16  - Masternode Sixteen"
+    echo -e "17  - Masternode Seventeen"
+    echo -e "18  - Masternode Eighteen"
+    echo -e "19  - Masternode Nineteen"
+    echo -e "20  - Masternode Twente"
+    echo -e "21  - Masternode Twentyone"
+    echo -e "22  - Masternode Twentytwo"
     echo -e "B  - Back out of Menu"
     echo -e "X  - Exit"
     Function_Read_Masternode_Upgrade
@@ -1409,6 +1730,33 @@ Function_Glances(){
       Function_Install_Secondaries
       Function_Display_MasternodeConf ;;
       13)INSTALLAMOUNT=13
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      14)INSTALLAMOUNT=14
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      15)INSTALLAMOUNT=15
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      16)INSTALLAMOUNT=16
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      17)INSTALLAMOUNT=17
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      18)INSTALLAMOUNT=18
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      19)INSTALLAMOUNT=19
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      20)INSTALLAMOUNT=20
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      21)INSTALLAMOUNT=21
+      Function_Install_Secondaries
+      Function_Display_MasternodeConf ;;
+      22)INSTALLAMOUNT=22
       Function_Install_Secondaries
       Function_Display_MasternodeConf ;;
       b) echo -e "backing out" ;;
@@ -1502,6 +1850,15 @@ Function_Build_IP_Table(){
   MNIP11=$(sed -n '14p' < ${DPATH}ip.tbl)
   MNIP12=$(sed -n '15p' < ${DPATH}ip.tbl)
   MNIP13=$(sed -n '16p' < ${DPATH}ip.tbl)
+  MNIP14=$(sed -n '17p' < ${DPATH}ip.tbl)
+  MNIP15=$(sed -n '18p' < ${DPATH}ip.tbl)
+  MNIP16=$(sed -n '19p' < ${DPATH}ip.tbl)
+  MNIP17=$(sed -n '20p' < ${DPATH}ip.tbl)
+  MNIP18=$(sed -n '21p' < ${DPATH}ip.tbl)
+  MNIP19=$(sed -n '22p' < ${DPATH}ip.tbl)
+  MNIP20=$(sed -n '23p' < ${DPATH}ip.tbl)
+  MNIP21=$(sed -n '24p' < ${DPATH}ip.tbl)
+  MNIP22=$(sed -n '25p' < ${DPATH}ip.tbl)
   }
 
   Function_Build_First_Node(){
@@ -1555,6 +1912,15 @@ Function_Read_Masternode_Key_Table(){
     PRIVK11=$(sed -n '14p' < ${DPATH}${COIN3l}mnkey.tbl)
     PRIVK12=$(sed -n '15p' < ${DPATH}${COIN3l}mnkey.tbl)
     PRIVK13=$(sed -n '16p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK14=$(sed -n '17p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK15=$(sed -n '18p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK16=$(sed -n '19p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK17=$(sed -n '20p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK18=$(sed -n '21p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK19=$(sed -n '22p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK20=$(sed -n '23p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK21=$(sed -n '24p' < ${DPATH}${COIN3l}mnkey.tbl)
+    PRIVK22=$(sed -n '25p' < ${DPATH}${COIN3l}mnkey.tbl)
   }
 
   Function_User_Add_Check(){
