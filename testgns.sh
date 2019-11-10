@@ -1562,22 +1562,24 @@ esac
   elif [[ $nodeunit -eq 13 ]] ; then
   echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 14 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK14" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 15 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK15" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 16 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK16" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 17 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK17" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 18 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK18" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 19 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK19" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 20 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK20" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 21 ]] ; then
-  echo "masternodeprivkey=$PRIVK13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  echo "masternodeprivkey=$PRIVK21" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 22 ]] ; then
+  echo "masternodeprivkey=$PRIVK22" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  fi
     if [[ $nodeunit -eq 1 ]] ; then
   echo "addnode=$ADDNODE0" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   echo "addnode=$ADDNODE1" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
