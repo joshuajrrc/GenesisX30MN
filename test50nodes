@@ -824,6 +824,7 @@ esac
     49) nodeunit=49
     function_reindex_masternode ;;
     50) nodeunit=50
+    function_reindex_masternode ;;
     a) echo -e "Launching all Masters!"
     Function_Start_All_Nodes ;;
     A) echo -e "Launching all Masters!"
