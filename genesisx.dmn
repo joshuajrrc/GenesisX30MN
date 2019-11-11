@@ -1,7 +1,0 @@
-COIN_NAME="genesisx"
-COIN_PATH="/usr/local/nullentrydev/"
-COIN_DAEMON="genesisxd"
-COIN_CLI="genesisx-cli"
-COIN_FOLDER="/home/genesisx"
-COIN_CONFIG="genesisx.conf"
-COIN_SERVICE="genesisx.service"
