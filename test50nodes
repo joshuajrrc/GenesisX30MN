@@ -2219,7 +2219,7 @@ esac
           echo -e "Running on IPv4 :${YELLOW} ${DISPIP}" ${CLEAR}
         else
         DISPIP=$(sed -n '4p' < /usr/local/nullentrydev/${nodeunit}.tmp | cut -d'"' -f4 | cut -d':' -f1-8)
-          if [ ! -z "$DISPIP"]; then
+          if [ ! -z "$DISPIP" ]; then
             echo -e "Running on IPv6 : ${YELLOW} ${DISPIP}" ${CLEAR}
           fi
         fi
