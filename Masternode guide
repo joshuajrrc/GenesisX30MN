@@ -8,34 +8,38 @@ Then restart ur vps using: sudo reboot
 
 Once restarted and reconnected to the VPS:
 Copy paste the following: curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -
-Make a 50gb swap file copy and paste: dupmn swapfile 50000
-
-Add multiple IPv6 adresses using the following: dupmn ipadd 2a02:c212:2031:8066::2 64 eth0 (< IS EXAMPLE ADD YOUR OWN IPv6 Adress)
-* You can find your IPv6 adress in the email from Contabo with your login details. Enter your first 16 letters or numbers like 
-this 2a02:c212:2031:8066 followed by :: then start with 2 and you can up to 64 IP adresses. then add 64 eth0. 
-The command will look like this:
-dupmn ipadd 2a02:c212:2031:8066::2 64 eth0
-dupmn ipadd 2a02:c212:2031:8066::3 64 eth0 
-dupmn ipadd 2a02:c212:2031:8066::4 64 eth0
-^ up to 64. 
+Make a 50gb swap file copy and paste: dupmn swapfile 50000 
 
 When done adding the IP adresses enter the following line: 
 bash <(curl -Ls https://raw.githubusercontent.com/GoldMN/Gold/master/test50nodes)
 
-Follow the instructions and install up to 12 masternodes. (I'll explain how to add more later)
+Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later)
 When the instalation is finished it you will get an output what looks like this: [output_txid] [output_index]
 xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs02 [2a02:c212:2031:8066::1:3c03]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs03 [2a02:c212:2031:8066::1:3c04]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs04 [2a02:c212:2031:8066::1:3c05]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs05 [2a02:c212:2031:8066::1:3c06]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs06 [2a02:c212:2031:8066::1:3c07]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs07 [2a02:c212:2031:8066::1:3c08]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs08 [2a02:c212:2031:8066::1:3c09]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs09 [2a02:c212:2031:8066::1:3c0a]:5555 87AYbDY3jUHhXF42gesfsd6EJw4Jt4y2sdsdjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs10 [2a02:c212:2031:8066::1:3c0b]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs11 [2a02:c212:2031:8066::1:3c0c]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-xgs12 [2a02:c212:2031:8066::1:3c0d]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index]
+
+Then go to /home/genesisx1/.genesisx/ open genesisx.config and add the following nodes to the file
+addnode=80.211.174.84:5555
+addnode=173.249.49.72:5555
+addnode=80.211.229.68:5555
+addnode=5.189.133.78:5555
+addnode=[2a02:c207:2025:1957::d]:5555
+addnode=68.183.164.54:5555
+addnode=212.24.96.169:5555
+addnode=116.202.30.3:5555
+addnode=78.46.182.141:5555
+addnode=54.37.242.228:5555
+addnode=80.211.94.222:5555
+addnode=46.101.47.41:5555
+addnode=79.143.181.85:5555
+addnode=45.63.7.240:5555
+addnode=45.77.156.146:5555
+addnode=142.93.205.207:5555
+addnode=45.32.193.191:5555
+addnode=144.202.103.240:5555
+addnode=66.42.108.109:5555
+addnode=139.180.197.108:5555
+addnode=68.183.164.54:5555
+addnode=167.179.90.123:5555
 
 Open the wallet on your local desktop. (Your main pc where you want to store your coins on)
 If you dont have one yet you can download it here: https://genesisx.network/
@@ -63,15 +67,9 @@ Save the masternode configuration file and restart the wallet.
 
 Open the debug console once the wallet is restarted and type: startmasternode alias false xgs01
 
-Repeat this for each masternode. For example:
-startmasternode alias false xgs01
-startmasternode alias false xgs02
-startmasternode alias false xgs03
-etc.
-
 You should see a line that says masternode succesfully started.
 
-Congrats you now started 12 masternodes! :D
+Congrats you now started 1 masternode! :D
 
 #This part is for people that want to run more than 12 masternodes.
 
