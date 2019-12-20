@@ -8,7 +8,7 @@ Then restart ur vps using: sudo reboot
 
 Once restarted and reconnected to the VPS:
 Copy paste the following: curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -
-Make a 50gb swap file copy and paste: dupmn swapfile 50000 
+Make a 50gb swap file copy and paste: dupmn swapfile 35000 
 
 When done adding the IP adresses enter the following line: 
 bash <(curl -Ls https://raw.githubusercontent.com/GoldMN/Gold/master/test50nodes)
