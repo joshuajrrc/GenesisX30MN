@@ -10,7 +10,7 @@ Once restarted and reconnected to the VPS:
 Copy paste the following: curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -
 Make a 50gb swap file copy and paste: dupmn swapfile 50000 
 
-When done adding the IP adresses enter the following line: 
+When done enabling IPv6 and added the swap file you can enter the following line: 
 bash <(curl -Ls https://raw.githubusercontent.com/GoldMN/Gold/master/test50nodes)
 
 Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later)
