@@ -1,4 +1,4 @@
-Purchase a VPS. Recommended 5eu/month Contabo server (Can run 35 masternodes) Link: https://contabo.com/?show=vps
+Purchase a VPS. Recommended 5eu/month Contabo server (Can run 50 masternodes) Link: https://contabo.com/?show=vps
 Download MobaXterm https://mobaxterm.mobatek.net/download-home-edition.html
 Start up your VPS in MobaXterm. Use SHH Session and log in using the login information Contabo sent u.
 
@@ -11,35 +11,11 @@ Copy paste the following: curl -sL https://raw.githubusercontent.com/neo3587/dup
 Make a 50gb swap file copy and paste: dupmn swapfile 50000 
 
 When done enabling IPv6 and added the swap file you can enter the following line: 
-bash <(curl -Ls https://raw.githubusercontent.com/GoldMN/Gold/master/test50nodes)
+bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX50MN/master/50MNScript)
 
 Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later)
 When the instalation is finished it you will get an output what looks like this: [output_txid] [output_index]
 xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
-
-Then go to /home/genesisx1/.genesisx/ open genesisx.config and add the following nodes to the file
-addnode=80.211.174.84:5555
-addnode=173.249.49.72:5555
-addnode=80.211.229.68:5555
-addnode=5.189.133.78:5555
-addnode=[2a02:c207:2025:1957::d]:5555
-addnode=68.183.164.54:5555
-addnode=212.24.96.169:5555
-addnode=116.202.30.3:5555
-addnode=78.46.182.141:5555
-addnode=54.37.242.228:5555
-addnode=80.211.94.222:5555
-addnode=46.101.47.41:5555
-addnode=79.143.181.85:5555
-addnode=45.63.7.240:5555
-addnode=45.77.156.146:5555
-addnode=142.93.205.207:5555
-addnode=45.32.193.191:5555
-addnode=144.202.103.240:5555
-addnode=66.42.108.109:5555
-addnode=139.180.197.108:5555
-addnode=68.183.164.54:5555
-addnode=167.179.90.123:5555
 
 Open the wallet on your local desktop. (Your main pc where you want to store your coins on)
 If you dont have one yet you can download it here: https://genesisx.network/
