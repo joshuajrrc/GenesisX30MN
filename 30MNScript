@@ -29,7 +29,7 @@ DOWNLOADCOINFILES=https://github.com/genesis-x/genesis-x/files/2799605/genesisx-
 COINFILES=genesisx-linux.zip
 DECOMPRESS='unzip'
 #rocketstrap
-NEBootStrap=http://downloads.genesisx.network/bootstrap.zip
+NEBootStrap=http://downloads.genesisx.network/bootstrap.rar
 AddNodeList=http://nullentry.com/chain/XGS/addnodes.tbl
 ADDNODE0=144.91.107.188:5555
 ADDNODE1=45.63.7.240:5555
