@@ -11,7 +11,7 @@ Copy paste the following: curl -sL https://raw.githubusercontent.com/neo3587/dup
 Make a 50gb swap file copy and paste: dupmn swapfile 50000 
 
 When done enabling IPv6 and added the swap file you can enter the following line: 
-bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX50MN/master/50MNScript)
+bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)
 
 Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later)
 When the instalation is finished it you will get an output what looks like this: [output_txid] [output_index]
