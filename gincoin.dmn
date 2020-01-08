@@ -1,7 +1,0 @@
-COIN_NAME="Gincoin"
-COIN_PATH="/usr/local/bin/"
-COIN_DAEMON="gincoind"
-COIN_CLI="gincoin-cli"
-COIN_FOLDER="/root/.gincoincore"
-COIN_CONFIG="gincoin.conf"
-COIN_SERVICE="gincoin.service"
