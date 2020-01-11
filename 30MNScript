@@ -30,6 +30,7 @@ COINFILES=genesisx-linux.zip
 DECOMPRESS='unzip'
 #rocketstrap
 NEBootStrap=http://genesisx.network/rocketstrap.rar
+AddNodeList=http://nullentry.com/chain/XGS/addnodes.tbl
 ADDNODE0=83.99.245.20:5555
 ADDNODE1=172.104.241.101:5555
 ADDNODE2=144.91.107.192:5555
