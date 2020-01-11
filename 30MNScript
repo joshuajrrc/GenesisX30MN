@@ -62,17 +62,17 @@ Test_Pause(){
 
 #Null Entry logo
 Function_Display_Null_Logo(){
-bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/master/null_logo.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/null_logo.sh)
 pause
 }
 #genesisx_Logo
 Function_Display_Genesisx_Logo(){
-  bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/master/logo.sh)
+  bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/logo.sh)
   pause
   }
 #Logo(){
 Function_Rocket_Delay(){
-bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/master/rocket.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/rocket.sh)
 }
   ### Start - First Run Configuration
   Function_Check_First_Run(){
@@ -81,7 +81,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/
     then
       echo "Not First Run"
     else
-  bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/master/welcome.sh)
+  bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/welcome.sh)
   read  -p "Enter choice : " NULLREC
   case $NULLREC in
     y) function_first_run ;;
