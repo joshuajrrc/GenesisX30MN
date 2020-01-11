@@ -87,7 +87,7 @@ xgs24 [2a02:c212:2031:8066::13]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPL
 
 Next step is to open your VPS in MobaXterm.
 
-Load Sburns script: bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)
+Load script: bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)
 
 Choose option 2 - Install or add masternodes
 
@@ -106,7 +106,9 @@ Masternode 14 = /home/genesisx14/.genesisx/
 Masternode 15 = /home/genesisx15/.genesisx/
 etc
 
-Once you are done editing all masternode files you can start the masternodes by running the script again:
+*** If the IP address is correct/matches your local wallet masternode.conf file there is no need to check the rest ***
+
+Once you are done editing/checking all masternode files you can start the masternodes by running the script again:
 bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)
 
 Select option 1 - My masternode status
@@ -115,9 +117,11 @@ When the program asks if you want to start the masternode, enter: Y
 
 Do this for all masternodes
 
-Go to your desktop wallet and open the debug console.
+Go to your desktop wallet and click on the Masternode tab. Click "Start all"
 
-Enter : startmasternode alias false xgs13
+If you have other masternodes running already you can alternatively go to the debug console and:
+Enter : startmasternode alias false "alias"
+"alias" is the name of the masternode you want to start. etc. xgs13
 
 Repeat this for each masternode you would like to start.
 
