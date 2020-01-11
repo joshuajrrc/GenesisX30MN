@@ -1,6 +1,6 @@
 Purchase a VPS. Recommended 5eu/month Contabo server (Can run 50 masternodes) Link: https://contabo.com/?show=vps
 Download MobaXterm https://mobaxterm.mobatek.net/download-home-edition.html
-Start up your VPS in MobaXterm or Putty. Use SHH Session and log in using the login information Contabo sent u.
+Start up your VPS in MobaXterm. Use SHH Session and log in using the login information Contabo sent you.
 
 Once connected to VPS:
 Enable IPv6 using the following command: enable_ipv6
