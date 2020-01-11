@@ -3,22 +3,26 @@ Download MobaXterm https://mobaxterm.mobatek.net/download-home-edition.html
 Start up your VPS in MobaXterm. Use SHH Session and log in using the login information Contabo sent you.
 
 Once connected to VPS:
-Enable IPv6 using the following command: enable_ipv6
-Then restart ur vps using: sudo reboot
+Enable IPv6 using the following command:
+`enable_ipv6`
+Then restart ur vps using:
+`sudo reboot`
 
 Once restarted and reconnected to the VPS:
-Copy paste the following: curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -
-Make a 50gb swap file copy and paste: dupmn swapfile 50000 
+Copy paste the following:
+`curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -`
+Make a 50gb swap file copy and paste:
+`dupmn swapfile 50000`
 
 When done enabling IPv6 and added the swap file you can enter the following line: 
-bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)
+`bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
 Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later)
 When the instalation is finished it you will get an output what looks like this: [output_txid] [output_index]
 xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
 
 Open the wallet on your local desktop. (Your main pc where you want to store your coins on)
-If you dont have one yet you can download it here: https://genesisx.network/
+If you dont have one yet you can download it here: https://github.com/genesis-x/genesis-x/releases
 
 Click on tools and open Masternode Configuration File. Picture example: https://gyazo.com/9d85719f03d690fcea3b3d735a99b12c
 
@@ -41,7 +45,8 @@ Add the txid and outputidx to the masternode config file. Picture example : http
 
 Save the masternode configuration file and restart the wallet.
 
-Open the debug console once the wallet is restarted and type: startmasternode alias false xgs01
+Open the debug console once the wallet is restarted and type:
+`startmasternode alias false xgs01`
 
 You should see a line that says masternode succesfully started.
 
@@ -87,7 +92,8 @@ xgs24 [2a02:c212:2031:8066::13]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPL
 
 Next step is to open your VPS in MobaXterm.
 
-Load script: bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)
+Load script:
+`bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
 Choose option 2 - Install or add masternodes
 
@@ -109,7 +115,7 @@ etc
 *** If the IP address is correct/matches your local wallet masternode.conf file there is no need to check the rest ***
 
 Once you are done editing/checking all masternode files you can start the masternodes by running the script again:
-bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)
+`bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
 Select option 1 - My masternode status
 
@@ -120,7 +126,8 @@ Do this for all masternodes
 Go to your desktop wallet and click on the Masternode tab. Click "Start all"
 
 If you have other masternodes running already you can alternatively go to the debug console and:
-Enter : startmasternode alias false "alias"
+Enter: 
+`startmasternode alias false "alias"`
 "alias" is the name of the masternode you want to start. etc. xgs13
 
 Repeat this for each masternode you would like to start.
