@@ -3,9 +3,9 @@ Download MobaXterm https://mobaxterm.mobatek.net/download-home-edition.html
 Start up your VPS in MobaXterm. Use SHH Session and log in using the login information Contabo sent you.
 
 Once connected to VPS:
-Enable IPv6 using the following command:
+Enable IPv6 using the following command: <br>
 `enable_ipv6`
-Then restart ur vps using:
+Then restart ur vps using: <br>
 `sudo reboot`
 
 Once restarted and reconnected to the VPS:
@@ -45,7 +45,7 @@ Add the txid and outputidx to the masternode config file. Picture example : http
 
 Save the masternode configuration file and restart the wallet.
 
-Open the debug console once the wallet is restarted and type:
+Open the debug console once the wallet is restarted and type: <br>
 `startmasternode alias false xgs01`
 
 You should see a line that says masternode succesfully started.
@@ -93,7 +93,7 @@ xgs24 [2a02:c212:2031:8066::13]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPL
 
 Next step is to open your VPS in MobaXterm.
 
-Load script:
+Load script: <br>
 `bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
 Choose option 2 - Install or add masternodes
@@ -115,7 +115,7 @@ etc
 
 *** If the IP address is correct/matches your local wallet masternode.conf file there is no need to check the rest ***
 
-Once you are done editing/checking all masternode files you can start the masternodes by running the script again:
+Once you are done editing/checking all masternode files you can start the masternodes by running the script again: <br>
 `bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
 Select option 1 - My masternode status
@@ -126,8 +126,8 @@ Do this for all masternodes
 
 Go to your desktop wallet and click on the Masternode tab. Click "Start all"
 
-If you have other masternodes running already you can alternatively go to the debug console and enter: 
-`startmasternode alias false "alias"
+If you have other masternodes running already you can alternatively go to the debug console and enter: <br> 
+`startmasternode alias false "alias"`
 "alias" is the name of the masternode you want to start. etc. xgs13
 
 Repeat this for each masternode you would like to start.
