@@ -4,7 +4,7 @@ Start up your VPS in MobaXterm. Use SHH Session and log in using the login infor
 
 Once connected to VPS:
 Enable IPv6 using the following command: <br>
-`enable_ipv6`
+`enable_ipv6` <br>
 Then restart ur vps using: <br>
 `sudo reboot`
 
