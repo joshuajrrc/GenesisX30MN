@@ -9,12 +9,12 @@ Then restart ur vps using:
 `sudo reboot`
 
 Once restarted and reconnected to the VPS:
-Copy paste the following:
+Copy paste the following: <br>
 `curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -`
-Make a 50gb swap file copy and paste:
+Make a 50gb swap file copy and paste: <br>
 `dupmn swapfile 50000`
 
-When done enabling IPv6 and added the swap file you can enter the following line: 
+When done enabling IPv6 and added the swap file you can enter the following line: <br>
 `bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
 Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later)
@@ -62,9 +62,10 @@ Generate a masternode key for each masternode.
 Add the [output_txid] [output_index] to the masternode config file. 
 
 Once added all this information the masternode configuration file should look something like this:
-# Masternode config file
-# Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:5555 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+Masternode config file
+Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
+Example: mn1 127.0.0.2:5555 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+
 xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 1
 xgs02 [2a02:c212:2031:8066::1:3c03]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 2
 xgs03 [2a02:c212:2031:8066::1:3c04]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 3
@@ -104,7 +105,7 @@ so we have to add them manually:
 
 Go to /home/genesisx13/.genesisx/ and click on genesisx.conf. Picture example: https://gyazo.com/8c2ab6f1e09d8f12c7819778e7157c34
 
-Enter the masternode key and ipv6 adress in the genesisxconf. file Picture example: https://gyazo.com/1442f952b1502ef51d18f0fd0b6cefbe
+Enter the masternode key and ipv6 adress in the genesisxconf. File Picture example: https://gyazo.com/1442f952b1502ef51d18f0fd0b6cefbe
 
 Do this to every masternode that you would like to add. Example:
 
@@ -125,9 +126,8 @@ Do this for all masternodes
 
 Go to your desktop wallet and click on the Masternode tab. Click "Start all"
 
-If you have other masternodes running already you can alternatively go to the debug console and:
-Enter: 
-`startmasternode alias false "alias"`
+If you have other masternodes running already you can alternatively go to the debug console and enter: 
+`startmasternode alias false "alias"
 "alias" is the name of the masternode you want to start. etc. xgs13
 
 Repeat this for each masternode you would like to start.
