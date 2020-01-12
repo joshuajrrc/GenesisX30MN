@@ -113,8 +113,6 @@ Masternode 14 = /home/genesisx14/.genesisx/
 Masternode 15 = /home/genesisx15/.genesisx/
 etc
 
-*** If the IP address is correct/matches your local wallet masternode.conf file there is no need to check the rest ***
-
 Once you are done editing/checking all masternode files you can start the masternodes by running the script again: <br>
 `bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
