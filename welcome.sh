@@ -10,7 +10,7 @@ echo
 echo
 echo
 echo
-echo -e ${YELLOW}"Welcome to the Beta Masternode Manager Script by ${BLUE}NullEntry"${CLEAR}
+echo -e ${YELLOW}"Welcome to the Masternode Manager Script by ${BLUE}NullEntry"${CLEAR}
 echo -e ${RED}'THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND'${CLEAR}
 echo
 echo -e ${BLUE}"May this script will store a small amount data in /usr/local/nullentrydev/ ?"${CLEAR}
