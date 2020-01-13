@@ -102,8 +102,8 @@ Enter the masternode key and ipv6 adress in the genesisxconf. File Picture examp
 
 Do this to every masternode that you would like to add. Example:
 
-Masternode 14 = /home/genesisx14/.genesisx/
-Masternode 15 = /home/genesisx15/.genesisx/
+Masternode 14 = /home/genesisx14/.genesisx/ <br>
+Masternode 15 = /home/genesisx15/.genesisx/ <br>
 etc
 
 Once you are done editing/checking all masternode files you can start the masternodes by running the script again: <br>
