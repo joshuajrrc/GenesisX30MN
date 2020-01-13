@@ -1,4 +1,4 @@
-#Setup Guide
+# Setup Guide
 
 Purchase a VPS. Recommended 5eu/month Contabo server (Up to 30 Masternodes per VPS) Link: https://contabo.com/?show=vps
 Download MobaXterm https://mobaxterm.mobatek.net/download-home-edition.html
