@@ -2305,7 +2305,7 @@ esac
         nodeunit=1
         clear
         echo
-        echo -e "Testing Version - Not for public release."
+        echo -e "Welcome to GenesisX 30 in 1 Masternode Script"
         echo
         echo -e "${RED}Let's set up your first ${COINl} masternode before we continue..."
         echo -e "${GREEN}This is going to take a few minutes, and when done will display"
@@ -2687,7 +2687,7 @@ Function_Glances(){
   echo -e "${YELLOW}from downloading the block chain individually; taking up${CLEAR}"
   echo -e "${YELLOW}more time and resources.  Current Block count will be displayed below.${CLEAR}"
   ${COINDAEMONCLI} -datadir=/home/${COINl}${nodeunit}/${COINCORE} getblockcount
-  sleep 5
+  sleep 3
   until ${COINDAEMONCLI} -datadir=/home/${COINl}${nodeunit}/${COINCORE} mnsync status | grep -m 1 'IsBlockchainSynced" : true'; do
     ${COINDAEMONCLI} -datadir=/home/${COINl}${nodeunit}/${COINCORE} getblockcount
     sleep 5
@@ -2937,7 +2937,7 @@ Function_Glances(){
 
   function_Donations(){
   #attempt to move legacy masternode
-    bash <(curl -Ls https://raw.githubusercontent.com/sburns1369/GenesisX_MN_Script/master/donations.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/donations.sh)
     pause
   }
 
