@@ -64,7 +64,8 @@ Generate a masternode key for each masternode.
 Add the [output_txid] [output_index] to the masternode config file. 
 
 Once added all this information the masternode configuration file should look something like this:
-`Masternode config file
+
+Masternode config file
 Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
 Example: mn1 127.0.0.2:5555 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 
@@ -79,7 +80,7 @@ xgs08 [2a02:c212:2031:8066::1:3c09]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkH
 xgs09 [2a02:c212:2031:8066::1:3c0a]:5555 87AYbDY3jUHhXF42gesfsd6EJw4Jt4y2sdsdjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 1
 xgs10 [2a02:c212:2031:8066::1:3c0b]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 0
 xgs11 [2a02:c212:2031:8066::1:3c0c]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 1
-xgs12 [2a02:c212:2031:8066::1:3c0d]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 0`
+xgs12 [2a02:c212:2031:8066::1:3c0d]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 0 <br>
 etc etc etc
 
 Next step is to open your VPS in MobaXterm.
@@ -96,14 +97,14 @@ Wait for the program to add the masternodes
 The script doesnt add any masternode keys or IP adresses above 12 masternodes 
 so we have to add them manually:
 
-Go to /home/genesisx13/.genesisx/ and click on genesisx.conf. Picture example: https://gyazo.com/8c2ab6f1e09d8f12c7819778e7157c34
+Go to `/home/genesisx13/.genesisx/` and click on genesisx.conf. Picture example: https://gyazo.com/8c2ab6f1e09d8f12c7819778e7157c34
 
 Enter the masternode key and ipv6 adress in the genesisxconf. File Picture example: https://gyazo.com/1442f952b1502ef51d18f0fd0b6cefbe
 
 Do this to every masternode that you would like to add. Example:
 
-Masternode 14 = /home/genesisx14/.genesisx/ <br>
-Masternode 15 = /home/genesisx15/.genesisx/ <br>
+Masternode 14 = `/home/genesisx14/.genesisx/` <br>
+Masternode 15 = `/home/genesisx15/.genesisx/` <br>
 etc
 
 Once you are done editing/checking all masternode files you can start the masternodes by running the script again: <br>
