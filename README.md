@@ -54,7 +54,7 @@ You should see a line that says masternode succesfully started.
 
 Congrats you now started 1 masternode! :D
 
-## This part is for people that want to run more than 1 masternode.
+## Adding Additional Masternodes
 
 Open your masternode configuration file.
 Add the amount of masternodes you want to add.
