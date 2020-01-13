@@ -65,10 +65,6 @@ Add the [output_txid] [output_index] to the masternode config file.
 
 Once added all this information the masternode configuration file should look something like this:
 
-Masternode config file
-Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-Example: mn1 127.0.0.2:5555 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
-
 xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 1 <br>
 xgs02 [2a02:c212:2031:8066::1:3c03]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 0 <br>
 xgs03 [2a02:c212:2031:8066::1:3c04]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 2fa04d1e20f95f9ed1cce1e6dfe9b1577b5ca1db0b3096dd66732d2eb8b8dbe1 1 <br>
