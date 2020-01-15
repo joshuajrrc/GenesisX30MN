@@ -1917,6 +1917,7 @@ esac
   clear
   disp_masternode_Status
   disp_masternode_Chain
+  disp_masternode_WalletVersion
   display_MN_Status
   }
 
@@ -2041,6 +2042,12 @@ esac
   disp_masternode_Status(){
   echo -e ${GREEN}"Reporting Masternode Status" ${YELLOW}
   ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} masternode status
+  echo -e ${CLEAR}
+  }
+  
+  disp_masternode_WalletVersion(){
+  echo -e ${GREEN}"Reporting Masternode Wallet Version" ${YELLOW}
+  ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} getnetworkinfo
   echo -e ${CLEAR}
   }
 
