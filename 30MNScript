@@ -534,7 +534,6 @@ esac
     49) nodeunit=49
     Function_Start_Masternode ;;
     50) nodeunit=50
-    
     Function_Start_Masternode ;;
     a) echo -e "Launching all Mastersnodes!"
     Function_Start_All_Nodes ;;
@@ -823,6 +822,8 @@ esac
     49) nodeunit=49
     function_reindex_masternode ;;
     50) nodeunit=50
+    function_reindex_masternode ;;
+    0) nodeunit=0
     function_reindex_masternode ;;
     a) echo -e "Launching all Masters!"
     Function_Start_All_Nodes ;;
@@ -2926,7 +2927,6 @@ Function_Glances(){
       50)INSTALLAMOUNT=50
       Function_Install_Secondaries
       Function_Display_MasternodeConf ;;
-
       b) echo -e "backing out" ;;
       B) echo -e "backing out" ;;
       x) exit 0;;
@@ -3424,7 +3424,6 @@ Function_Read_Masternode_Key_Table(){
     if [ -f /home/${COINl}50/.${COINl}/${COINCONFIG} ]; then
       echo -e "${COIN3l}50 [${MNIP50}]:$COINPORT $PRIVK50 [Transaction ID] [Transaction Output]"
     fi
-
     echo -e "${CLEAR}"
     pause
   }
