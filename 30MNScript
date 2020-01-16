@@ -1916,8 +1916,8 @@ esac
   display_MN_choice(){
   clear
   disp_masternode_Status
-  disp_masternode_Chain
   disp_masternode_Version
+  disp_masternode_Chain
   display_MN_Status
   }
 
