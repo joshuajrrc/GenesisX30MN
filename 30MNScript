@@ -2246,7 +2246,7 @@ esac
 
   # Operating Systems Check
   function_first_run(){
-        if [[ $(lsb_release -d) != *18.04* ]]; then
+        if [[ $(lsb_release -d) != *18.04.3* ]]; then
           echo -e ${RED}"The operating system is not Ubuntu 16.04. You must be running on ubuntu 16.04."${CLEAR}
           exit 1
         fi
