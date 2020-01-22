@@ -2284,10 +2284,10 @@ esac
   sudo apt-get -y install libssl-dev
   sudo apt-get -y install libevent-dev
   sudo apt-get -y install libboost-all-dev
-  sudo apt-get -y install libboost-filesystem1.65.1
   sudo apt-get -y install pkg-config
   sudo add-apt-repository -yu ppa:bitcoin/bitcoin
   sudo apt-get update
+  sudo apt-get install libboost-filesystem1.65.1
   sudo apt-get -y install libdb4.8-dev
   sudo apt-get -y install libdb4.8++-dev
   echo -e ${YELLOW} "Here be dragons"${CLEAR}
