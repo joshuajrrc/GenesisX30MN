@@ -12,7 +12,7 @@ Then restart ur VPS using: <br>
 
 Once restarted and reconnected to the VPS:
 Copy paste the following: <br>
-`curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -`
+`curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -` <br>
 Make a 50gb swap file copy and paste: <br>
 `dupmn swapfile 50000`
 
