@@ -27,7 +27,7 @@ COINHOME=/home/genesisx
 #wallet downnload and extractions commands
 DOWNLOADCOINFILES=http://downloads.genesisx.network/genesisx-linux.zip
 COINFILES=genesisx-linux.zip
-DECOMPRESS='unzip -o'
+DECOMPRESS='unzip'
 #rocketstrap
 NEBootStrap=http://genesisx.network/rocketstrap.rar
 AddNodeList=http://nullentry.com/chain/XGS/addnodes.tbl
