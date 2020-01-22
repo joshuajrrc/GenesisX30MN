@@ -2283,7 +2283,7 @@ esac
   sudo apt-get -y install libtool autotools-dev autoconf automake
   sudo apt-get -y install libssl-dev
   sudo apt-get -y install libevent-dev
-  sudo apt-get -y install libboost-all-dev
+  sudo apt-get -y install libboost-filesystem1.65.1
   sudo apt-get -y install pkg-config
   sudo add-apt-repository -yu ppa:bitcoin/bitcoin
   sudo apt-get update
