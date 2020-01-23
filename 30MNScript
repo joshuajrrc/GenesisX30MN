@@ -2247,7 +2247,7 @@ esac
   # Operating Systems Check
   function_first_run(){
         if [[ $(lsb_release -d) != *18.04.3* ]]; then
-          echo -e ${RED}"The operating system is not Ubuntu 16.04. You must be running on ubuntu 16.04."${CLEAR}
+          echo -e ${RED}"The operating system is not Ubuntu 18.04. You must be running on ubuntu 18.04."${CLEAR}
           exit 1
         fi
         if [ ! -d /usr/local/nullentrydev/ ]; then
@@ -2290,6 +2290,8 @@ esac
   sudo apt-get install libboost-filesystem1.65.1
   sudo apt-get -y install libdb4.8-dev
   sudo apt-get -y install libdb4.8++-dev
+  sudo apt-get -y install libzmq3-dev
+  sudo apt-get -y install libminiupnpc-dev
   echo -e ${YELLOW} "Here be dragons"${CLEAR}
   sudo apt-get -y install libminiupnpc-dev libzmq3-dev libevent-pthreads-2.0-5
   sudo apt-get -y install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev
