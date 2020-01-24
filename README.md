@@ -89,42 +89,25 @@ Enter the total amount of masternodes you want
 
 Wait for the program to add the masternodes
 
-The script doesnt add any masternode keys or IP adresses above 12 masternodes 
-so we have to add them manually:
+Next we need to update all of the genesisx.conf files with your masternode keys
 
-Go to `/home/genesisx13/.genesisx/` and click on genesisx.conf. Picture example: https://gyazo.com/8c2ab6f1e09d8f12c7819778e7157c34
+Go to /home/genesisx1/.genesisx/ and click on genesisx.conf. <br>
+Picture example: https://gyazo.com/8c2ab6f1e09d8f12c7819778e7157c34
 
-Enter the masternode key and ipv6 adress in the genesisxconf. File Picture example: https://gyazo.com/1442f952b1502ef51d18f0fd0b6cefbe
+Enter the masternode key in the genesisxconf. <br>
+Picture example: https://gyazo.com/1442f952b1502ef51d18f0fd0b6cefbe
 
-Do this to every masternode that you would like to add. Example:
+Do this to every masternode that you would like to add. Example: <br>
+Masternode 2 = /home/genesisx2/.genesisx/ <br>
+Masternode 3 = /home/genesisx3/.genesisx/ <br>
+etc etc etc
 
-Masternode 14 = `/home/genesisx14/.genesisx/` <br>
-Masternode 15 = `/home/genesisx15/.genesisx/` <br>
-etc
+Once you have all of your genesisx.conf files updated with your masternode keys you'll need to stop all of your nodes, and start them again. This is needed load the changed/updated genesisx.conf files.
 
-Once you are done editing/checking all masternode files you can start the masternodes by running the script again: <br>
-`bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
+Now head over to your local wallet and start all of the masternodes you just created
 
-Select option 1 - My masternode status
+In the script main menu press '1' for masternode status. You should see that all have started successfully!
 
-When the program asks if you want to start the masternode, enter: Y 
-
-Do this for all masternodes
-
-Go to your desktop wallet and click on the Masternode tab. Click "Start all"
-
-If you have other masternodes running already you can alternatively go to the debug console and enter: <br> 
-`startmasternode alias false "alias"`
-"alias" is the name of the masternode you want to start. etc. xgs13
-
-Repeat this for each masternode you would like to start.
-
-Now you know how to start running your own masternodes :D
-I hope this guide helped you !
-
-Feel free to send some coins as gratitude to me as thanks for writing this guide :^)
-XGS Wallet adress: GMJe2sANzaFCQgqhEfpPyb16xxechBr6Qp
-BTC Wallet adress: 3BajGLbwm79mvL2FSHiXiVqh9fRySWuYNB
 
 The script work was created by SBurns of the Null Entry Project
 #And possible follow/fork from https://github.com/sburns1369/
@@ -132,3 +115,8 @@ The script work was created by SBurns of the Null Entry Project
 #As well as the donation address for the “Buy the poor guy a red bull”
 #BTC address: 32FzghE1yUZRdDmCkj3bJ6vJyXxUVPKY93
 #LTC address: MUdDdVr4Az1dVw47uC4srJ31Ksi5SNkC7H
+
+This script was modified by Gold
+Donations are greatly appreciated
+XGS Wallet adress: GMJe2sANzaFCQgqhEfpPyb16xxechBr6Qp
+BTC Wallet adress: 3BajGLbwm79mvL2FSHiXiVqh9fRySWuYNB
