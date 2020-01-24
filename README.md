@@ -53,7 +53,7 @@ Open the debug console once the wallet is restarted and type: <br>
 
 You should see a line that says masternode succesfully started.
 
-Congrats you now started 1 masternode! :D
+Congratulations you now started 1 masternode!
 
 ## Adding Additional Masternodes
 
@@ -104,11 +104,11 @@ Masternode 2 = /home/genesisx2/.genesisx/ <br>
 Masternode 3 = /home/genesisx3/.genesisx/ <br>
 etc etc etc
 
-Once you have all of your genesisx.conf files updated with your masternode keys you'll need to stop all of your nodes, and start them again. This is needed load the changed/updated genesisx.conf files.
+Once you have all of your genesisx.conf files updated with your masternode keys you'll need to stop all of your nodes, and start them again. This is needed to load the changed/updated genesisx.conf files.
 
 Now head over to your local wallet and start all of the masternodes you just created
 
-In the script main menu press '1' for masternode status. You should see that all have started successfully!
+Back to the VPS script main menu: Press '1' for masternode status. You should see that all have started successfully!
 <br>
 <br>
 
