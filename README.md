@@ -1,4 +1,4 @@
-Version 1.
+Version 1.5 [January 23, 2020]
 
 # Setup Guide
 
