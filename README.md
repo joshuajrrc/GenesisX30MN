@@ -109,14 +109,14 @@ Now head over to your local wallet and start all of the masternodes you just cre
 In the script main menu press '1' for masternode status. You should see that all have started successfully!
 
 
-The script work was created by SBurns of the Null Entry Project
-#And possible follow/fork from https://github.com/sburns1369/
-#If anyone recycles please leave credit to the author somewhere
-#As well as the donation address for the “Buy the poor guy a red bull”
-#BTC address: 32FzghE1yUZRdDmCkj3bJ6vJyXxUVPKY93
-#LTC address: MUdDdVr4Az1dVw47uC4srJ31Ksi5SNkC7H
+# The script work was created by SBurns of the Null Entry Project <br>
+And possible follow/fork from https://github.com/sburns1369/ <br>
+If anyone recycles please leave credit to the author somewhere <br>
+As well as the donation address for the “Buy the poor guy a red bull” <br>
+BTC address: 32FzghE1yUZRdDmCkj3bJ6vJyXxUVPKY93 <br>
+LTC address: MUdDdVr4Az1dVw47uC4srJ31Ksi5SNkC7H
 
-This script was modified by Gold
-Donations are greatly appreciated
-XGS Wallet adress: GMJe2sANzaFCQgqhEfpPyb16xxechBr6Qp
+#This script was later modified to allow up to 30 MNs per VPS by community member <b>Gold<b> <br>
+Donations are greatly appreciated <br>
+XGS Wallet adress: GMJe2sANzaFCQgqhEfpPyb16xxechBr6Qp <br>
 BTC Wallet adress: 3BajGLbwm79mvL2FSHiXiVqh9fRySWuYNB
