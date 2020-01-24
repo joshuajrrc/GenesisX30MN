@@ -1,12 +1,5 @@
 #!/bin/bash
-#script_Version:1.3
-#This script work was created by SBurns of the Null Entry Project
-#And possible follow/fork from https://github.com/sburns1369/
-#If anyone recycles please leave credit to the author somewhere
-#As well as the donation address for the “Buy the poor guy a red bull”
-#BTC address: 32FzghE1yUZRdDmCkj3bJ6vJyXxUVPKY93
-#LTC address: MUdDdVr4Az1dVw47uC4srJ31Ksi5SNkC7H
-#This script work is still in active deployment so please keep an eye June releases 2019
+#script_Version:1.5
 declare -i NC DEV DEVC DEVOld DEVMN0 DEVMN1 DEVMN2 DEVMN3 DEVMN4 DEVMN5 DEVMN6 DEVMN7 DEVMN8
 #Counter
 NC=0
