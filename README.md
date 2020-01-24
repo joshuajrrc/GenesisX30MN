@@ -20,8 +20,7 @@ When done enabling IPv6 and added the swap file you can enter the following line
 `bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
 Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later) <br>
-When the instalation is finished it you will get an output what looks like this: <br> [output_txid] [output_index]
-xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
+When the instalation is finished it you will get an output what looks like this: <br> xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
 
 Open the wallet on your local desktop. (Your main pc where you want to store your coins on)
 If you don't have one yet you can download it here: https://github.com/genesis-x/genesis-x/releases
