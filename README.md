@@ -4,13 +4,13 @@ Purchase a VPS. Recommended 5eu/month Contabo server (Up to 30 Masternodes per V
 Download MobaXterm https://mobaxterm.mobatek.net/download-home-edition.html <br>
 Start up your VPS in MobaXterm. <br> Use SHH Session and log in using the login information Contabo sent you.
 
-Once connected to VPS:
+Connected to VPS using MobaXterm <br>
 Enable IPv6 using the following command: <br>
 `enable_ipv6` <br>
 Then restart ur VPS using: <br>
 `sudo reboot`
 
-Once restarted and reconnected to the VPS:
+Once restarted and reconnected to the VPS <br>
 Copy paste the following: <br>
 `curl -sL https://raw.githubusercontent.com/neo3587/dupmn/master/dupmn_install.sh | sudo -E bash -` <br>
 Make a 50gb swap file copy and paste: <br>
@@ -19,8 +19,8 @@ Make a 50gb swap file copy and paste: <br>
 When done enabling IPv6 and added the swap file you can enter the following line: <br>
 `bash <(curl -Ls https://raw.githubusercontent.com/CowsGoWuff/GenesisX30MN/master/30MNScript)`
 
-Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later)
-When the instalation is finished it you will get an output what looks like this: [output_txid] [output_index]
+Follow the instructions and install up to 1 masternodes. (I'll explain how to add more later) <br>
+When the instalation is finished it you will get an output what looks like this: <br> [output_txid] [output_index]
 xgs01 [2a02:c212:2031:8066::1:3c02]:5555 87AYbDY3jUHhXF42gesfsd6EJw4JtCAFHY5CjkHRAPLMoWsm485 [output_txid] [output_index] 
 
 Open the wallet on your local desktop. (Your main pc where you want to store your coins on)
