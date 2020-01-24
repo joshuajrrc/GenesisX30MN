@@ -1,3 +1,5 @@
+Version 1.
+
 # Setup Guide
 
 Purchase a VPS. Recommended 5eu/month Contabo server (Up to 30 Masternodes per VPS) <br> Link: https://contabo.com/?show=vps <br>
@@ -107,16 +109,17 @@ Once you have all of your genesisx.conf files updated with your masternode keys 
 Now head over to your local wallet and start all of the masternodes you just created
 
 In the script main menu press '1' for masternode status. You should see that all have started successfully!
+<br>
+<br>
 
-
-<h3>The script work was created by <b>SBurns</b> of the Null Entry Project</h3> <br>
+<h4>The script work was created by <b>SBurns</b> of the Null Entry Project</h4> <br>
 And possible follow/fork from https://github.com/sburns1369/ <br>
 If anyone recycles please leave credit to the author somewhere <br>
 As well as the donation address for the “Buy the poor guy a red bull” <br>
 BTC address: 32FzghE1yUZRdDmCkj3bJ6vJyXxUVPKY93 <br>
 LTC address: MUdDdVr4Az1dVw47uC4srJ31Ksi5SNkC7H
 
-<h3>This script was later modified to allow up to 30 MNs per VPS by community member <b>Gold</b></h3> <br>
+<h4>This script was later modified to allow up to 30 MNs per VPS by community member <b>Gold</b></h4> <br>
 Donations are greatly appreciated <br>
 XGS Wallet adress: GMJe2sANzaFCQgqhEfpPyb16xxechBr6Qp <br>
 BTC Wallet adress: 3BajGLbwm79mvL2FSHiXiVqh9fRySWuYNB
