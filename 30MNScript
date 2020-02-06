@@ -2227,7 +2227,7 @@ esac
   DEVOld="1"
   DEV=$DEV+1
   fi
-  echo
+  #do nothing 
   }
 
   #start Function_AptGet_Update
