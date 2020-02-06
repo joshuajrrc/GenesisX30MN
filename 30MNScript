@@ -2226,6 +2226,7 @@ esac
         rm -r /usr/local/nullentrydev/${nodeunit}.tmp
   DEVOld="1"
   DEV=$DEV+1
+  echo 
   fi
   #do nothing 
   }
