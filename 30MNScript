@@ -2227,7 +2227,7 @@ esac
   DEVOld="1"
   DEV=$DEV+1
   fi
-  #do nothing - masternode does not exist 
+  echo
   }
 
   #start Function_AptGet_Update
@@ -2321,7 +2321,7 @@ esac
         echo -e ${CLEAR}
         echo -e ${RED}"            ...Please Wait" ${CLEAR}
         sleep 5
-        Function_First_Install 
+        Function_First_Install
         fi
       fi
       }
