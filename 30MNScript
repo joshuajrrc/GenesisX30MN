@@ -2239,8 +2239,8 @@ esac
 
   # Operating Systems Check
   function_first_run(){
-        if [[ $(lsb_release -d) != *18.04* ]]; then
-          echo -e ${RED}"The operating system is not Ubuntu 18.04 You must be running on ubuntu 18.04"${CLEAR}
+        if [[ $(lsb_release -d) != *18.04.4* ]]; then
+          echo -e ${RED}"The operating system is not Ubuntu 18.04.4 You must be running on ubuntu 18.04.4"${CLEAR}
           exit 1
         fi
         if [ ! -d /usr/local/nullentrydev/ ]; then
